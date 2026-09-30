@@ -1,26 +1,170 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  /* Fonts */
+  --font-sans:
+    var(--font-satoshi), system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-display: var(--font-poppins), "Poppins", system-ui, sans-serif;
+  --font-logo: var(--font-clashDisplay), sans-serif;
+
+  /* Radius: rounded-card (24), rounded-input (12) */
+  --radius-card: 24px;
+  --radius-input: 12px;
+
+  /* Layout: max-w-content (1200px) */
+  --container-content: 1200px;
+
+  /* Colors */
+  --color-persian-800: #003be2;
+  --color-electric-lime-400: #d4fb20;
+  --color-electric-lime-500: #cbfc01;
+  --color-lime-soft: #c1e338;
+  --color-electric-violet-600: #7f30f7;
+  --color-electric-violet-950: #300b6a;
+  --color-shuttle-50: #f5f5f6;
+  --color-shuttle-100: #e5e6e8;
+  --color-shuttle-200: #ced0d3;
+  --color-shuttle-300: #abaeb5;
+  --color-shuttle-400: #82868e;
+  --color-shuttle-700: #4b4c53;
+  --color-shuttle-900: #3a3b3f;
+  --color-shuttle-950: #242528;
+  --color-ink-700: #4f4f4f; /* Figma "Black/700" */
+  --color-ink-950: #000000; /* Figma "Black/950" */
+
+  /* Semantic aliases: bg-primary, bg-accent, text-eyebrow … */
+  --color-primary: var(--color-persian-800);
+  --color-accent: var(--color-electric-lime-400);
+  --color-eyebrow: var(--color-electric-violet-600);
+  --color-page: #ffffff;
+  --color-surface: var(--color-shuttle-50);
+
+  /* Shadows */
+  --shadow-float: 0 4px 12px rgb(0 0 0 / 0.06), 0 16px 40px rgb(0 0 0 / 0.08);
+
+  /* Motion */
+  --ease-out-soft: cubic-bezier(0.2, 0.7, 0.2, 1);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    @apply bg-page font-sans text-base text-shuttle-950 antialiased;
+    min-height: 100vh;
+    line-height: 1.6;
+  }
+  img,
+  svg,
+  video {
+    @apply block max-w-full;
+  }
+  img {
+    @apply h-auto;
+  }
+  button {
+    @apply cursor-pointer;
+  }
+  ::placeholder {
+    @apply text-shuttle-400 opacity-100;
+  }
+  ::selection {
+    @apply bg-electric-lime-400 text-shuttle-950;
+  }
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-persian-800;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* TYPE UTILITIES  */
+@utility heading-l {
+  font-family: var(--font-display);
+  font-size: 72px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+@utility heading-m {
+  font-family: var(--font-display);
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+@utility display-s {
+  font-family: var(--font-display);
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+  letter-spacing: -0.01em;
+}
+@utility display-xs {
+  font-family: var(--font-display);
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: -0.01em;
+}
+@utility heading-s {
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+}
+@utility heading-xs {
+  font-family: var(--font-display);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+
+@utility label-xl {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+@utility label-l {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+@utility label-m {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+@utility label-s {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+@utility label-xs {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+@utility body-l {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+@utility body-m {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+@utility body-s {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+@utility body-xs {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.6;
 }
