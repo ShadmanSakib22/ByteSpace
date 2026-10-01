@@ -1,7 +1,9 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Poppins } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
+import { Footer } from "@/components/Footer";
+import { Navbar } from "@/components/Navbar";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -42,13 +44,25 @@ export const metadata: Metadata = {
     "Get Access to Hundreds of Courses Available - Unlock your creativity, gain valuable knowledge, and grow your business with our wide range of courses.",
 };
 
+// viewport-fit=cover lets the body reach under notches/rounded corners so the
+// safe-area padding in globals.css has something to inset against.
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover",
+};
+
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="en"
       className={`${poppins.variable} ${satoshi.variable} ${clashDisplay.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <Navbar />
+        <div className="flex-1">{children}</div>
+        <Footer />
+      </body>
     </html>
   );
 }

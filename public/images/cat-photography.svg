@@ -1,0 +1,65 @@
+﻿<svg width="60" xmlns="http://www.w3.org/2000/svg" height="60" viewBox="-7663.5 4616 60 60" style="-webkit-print-color-adjust::exact" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" version="1.1">
+  <g id="shape-d889548e-0470-55ef-a78e-e6ce0a85fb17">
+    <g class="frame-container-wrapper" opacity="1">
+      <g class="frame-container-blur">
+        <g class="frame-container-shadows">
+          <g fill="none">
+            <g class="fills" id="fills-d889548e-0470-55ef-a78e-e6ce0a85fb17">
+              <rect rx="30" ry="30" x="-7663.5" y="4616" width="60" height="60" transform="matrix(1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000)" class="frame-background" style="fill:#d4fb20;fill-opacity:1">
+              </rect>
+            </g>
+            <g class="frame-children">
+              <g id="shape-50030a59-1bbd-502a-ba7e-4c6d2fdca209">
+                <defs>
+                  <clipPath id="frame-clip-50030a59-1bbd-502a-ba7e-4c6d2fdca209-render-6670" class="frame-clip frame-clip-def">
+                    <rect rx="0" ry="0" x="-7651.5" y="4628" width="36" height="36" transform="matrix(1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000)">
+                    </rect>
+                  </clipPath>
+                </defs>
+                <g class="frame-container-wrapper" opacity="1">
+                  <g class="frame-container-blur">
+                    <g class="frame-container-shadows">
+                      <g clip-path="url(#frame-clip-50030a59-1bbd-502a-ba7e-4c6d2fdca209-render-6670)" fill="none">
+                        <g class="fills" id="fills-50030a59-1bbd-502a-ba7e-4c6d2fdca209">
+                          <rect rx="0" ry="0" x="-7651.5" y="4628" width="36" height="36" transform="matrix(1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000)" class="frame-background" style="fill:#ffffff;fill-opacity:0">
+                          </rect>
+                        </g>
+                        <g class="frame-children">
+                          <g id="shape-c206afdb-8f67-57aa-a0ff-cd0ae4cc2ed1" rx="0" ry="0">
+                            <g id="shape-27e3c69a-4396-524b-9936-c2edb386a52a" style="opacity:1">
+                              <g class="fills" id="fills-27e3c69a-4396-524b-9936-c2edb386a52a">
+                                <path d="M-7621.5,4635.5L-7626.2548828125,4635.5L-7629,4632.5L-7638,4632.5L-7640.7451171875,4635.5L-7645.5,4635.5C-7647.14990234375,4635.5,-7648.5,4636.85009765625,-7648.5,4638.5L-7648.5,4656.5C-7648.5,4658.14990234375,-7647.14990234375,4659.5,-7645.5,4659.5L-7621.5,4659.5C-7619.85009765625,4659.5,-7618.5,4658.14990234375,-7618.5,4656.5L-7618.5,4638.5C-7618.5,4636.85009765625,-7619.85009765625,4635.5,-7621.5,4635.5ZM-7621.5,4656.5L-7645.5,4656.5L-7645.5,4638.5L-7639.4248046875,4638.5L-7636.68017578125,4635.5L-7630.31982421875,4635.5L-7627.5751953125,4638.5L-7621.5,4638.5L-7621.5,4656.5Z" fill-rule="nonzero" style="fill:#242528;fill-opacity:1">
+                                </path>
+                              </g>
+                            </g>
+                            <g id="shape-fd1c6991-2e92-5c83-93be-6ba27eafe233" style="opacity:1">
+                              <g class="fills" id="fills-fd1c6991-2e92-5c83-93be-6ba27eafe233">
+                                <path d="M-7633.5,4647.5C-7631.84326171875,4647.5,-7630.5,4646.15673828125,-7630.5,4644.5C-7630.5,4642.84326171875,-7631.84326171875,4641.5,-7633.5,4641.5C-7635.15673828125,4641.5,-7636.5,4642.84326171875,-7636.5,4644.5C-7636.5,4646.15673828125,-7635.15673828125,4647.5,-7633.5,4647.5Z" fill-rule="nonzero" style="fill:#242528;fill-opacity:1">
+                                </path>
+                              </g>
+                            </g>
+                            <g id="shape-26a31a99-4904-5221-bb32-ecdcdebce001" style="opacity:1">
+                              <g class="fills" id="fills-26a31a99-4904-5221-bb32-ecdcdebce001">
+                                <path d="M-7629.330078125,4649.8701171875C-7630.60498046875,4649.31494140625,-7632.01513671875,4649,-7633.5,4649C-7634.98486328125,4649,-7636.39501953125,4649.31494140625,-7637.669921875,4649.8701171875C-7638.77978515625,4650.35009765625,-7639.5,4651.43017578125,-7639.5,4652.64501953125L-7639.5,4653.5L-7627.5,4653.5L-7627.5,4652.64501953125C-7627.5,4651.43017578125,-7628.22021484375,4650.35009765625,-7629.330078125,4649.8701171875Z" fill-rule="nonzero" style="fill:#242528;fill-opacity:1">
+                                </path>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  
+  
+  
+  
+  
+</svg>

@@ -2,17 +2,13 @@
 
 @theme {
   /* Fonts */
-  --font-sans:
-    var(--font-satoshi), system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-sans: var(--font-satoshi), system-ui, sans-serif;
   --font-display: var(--font-poppins), "Poppins", system-ui, sans-serif;
   --font-logo: var(--font-clashDisplay), sans-serif;
 
   /* Radius: rounded-card (24), rounded-input (12) */
   --radius-card: 24px;
   --radius-input: 12px;
-
-  /* Layout: max-w-content (1200px) */
-  --container-content: 1200px;
 
   /* Colors */
   --color-persian-800: #003be2;
@@ -30,6 +26,7 @@
   --color-shuttle-900: #3a3b3f;
   --color-shuttle-950: #242528;
   --color-ink-700: #4f4f4f; /* Figma "Black/700" */
+  --color-ink-900: #040819; /* section headings in design */
   --color-ink-950: #000000; /* Figma "Black/950" */
 
   /* Semantic aliases: bg-primary, bg-accent, text-eyebrow … */
@@ -44,6 +41,13 @@
 
   /* Motion */
   --ease-out-soft: cubic-bezier(0.2, 0.7, 0.2, 1);
+
+  /* Vertical rhythm: mobile -> desktop (lg) */
+  --space-section: clamp(56px, 8vw, 80px);
+  --space-section-lg: clamp(72px, 10vw, 120px);
+
+  /* Gutter scales up on larger screens */
+  --gutter: clamp(16px, 4vw, 24px);
 }
 
 @layer base {
@@ -55,6 +59,11 @@
     @apply bg-page font-sans text-base text-shuttle-950 antialiased;
     min-height: 100vh;
     line-height: 1.6;
+    /* Decorative layers are absolutely positioned inside their sections; this
+       keeps any overflow from turning into a sideways page scroll. */
+    overflow-x: clip;
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
   }
   img,
   svg,
@@ -78,48 +87,58 @@
   }
 }
 
+/* MOTION */
+
+
+
+
 /* TYPE UTILITIES  */
+/* Fluid type: each scale maxes out at or below the lg breakpoint (1024px),
+   so desktop renders at exactly the original fixed sizes. */
 @utility heading-l {
   font-family: var(--font-display);
-  font-size: 72px;
+  font-size: clamp(34px, 7.5vw, 72px);
   font-weight: 600;
-  line-height: 1.2;
+  line-height: 1.15;
   letter-spacing: -0.01em;
+  text-wrap: balance;
 }
 @utility heading-m {
   font-family: var(--font-display);
-  font-size: 44px;
+  font-size: clamp(28px, 4.3vw, 44px);
   font-weight: 600;
-  line-height: 1.2;
+  line-height: 1.18;
   letter-spacing: -0.01em;
+  text-wrap: balance;
 }
 @utility display-s {
   font-family: var(--font-display);
-  font-size: 44px;
+  font-size: clamp(30px, 4.3vw, 44px);
   font-weight: 500;
-  line-height: 52px;
+  line-height: 1.18;
   letter-spacing: -0.01em;
 }
 @utility display-xs {
   font-family: var(--font-display);
-  font-size: 36px;
+  font-size: clamp(26px, 3.5vw, 36px);
   font-weight: 500;
-  line-height: 44px;
+  line-height: 1.22;
   letter-spacing: -0.01em;
 }
 @utility heading-s {
   font-family: var(--font-display);
-  font-size: 24px;
+  font-size: clamp(20px, 2.2vw, 24px);
   font-weight: 600;
-  line-height: 32px;
+  line-height: 1.33;
   letter-spacing: -0.01em;
 }
 @utility heading-xs {
   font-family: var(--font-display);
-  font-size: 20px;
+  font-size: clamp(18px, 1.9vw, 20px);
   font-weight: 600;
   line-height: 1.2;
   letter-spacing: -0.01em;
+  text-wrap: pretty;
 }
 
 @utility label-xl {
@@ -149,14 +168,16 @@
 }
 
 @utility body-l {
-  font-size: 18px;
+  font-size: clamp(16px, 1.6vw, 18px);
   font-weight: 400;
   line-height: 1.6;
+  text-wrap: pretty;
 }
 @utility body-m {
-  font-size: 16px;
+  font-size: clamp(15px, 1.5vw, 16px);
   font-weight: 400;
   line-height: 24px;
+  text-wrap: pretty;
 }
 @utility body-s {
   font-size: 14px;
