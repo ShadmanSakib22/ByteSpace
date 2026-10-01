@@ -2,17 +2,13 @@
 
 @theme {
   /* Fonts */
-  --font-sans:
-    var(--font-satoshi), system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-sans: var(--font-satoshi), system-ui, sans-serif;
   --font-display: var(--font-poppins), "Poppins", system-ui, sans-serif;
   --font-logo: var(--font-clashDisplay), sans-serif;
 
   /* Radius: rounded-card (24), rounded-input (12) */
   --radius-card: 24px;
   --radius-input: 12px;
-
-  /* Layout: max-w-content (1200px) */
-  --container-content: 1200px;
 
   /* Colors */
   --color-persian-800: #003be2;
@@ -30,6 +26,7 @@
   --color-shuttle-900: #3a3b3f;
   --color-shuttle-950: #242528;
   --color-ink-700: #4f4f4f; /* Figma "Black/700" */
+  --color-ink-900: #040819; /* section headings in design */
   --color-ink-950: #000000; /* Figma "Black/950" */
 
   /* Semantic aliases: bg-primary, bg-accent, text-eyebrow … */
