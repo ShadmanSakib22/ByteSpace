@@ -140,7 +140,7 @@ export function Hero() {
           <img
             src="/images/hero-person.webp"
             alt="Student learning with a laptop"
-            className="absolute left-[431px] top-[-32px] h-[541px] w-[578px] object-cover"
+            className="absolute left-[431px] bottom-[0px] h-[541px] w-[578px] object-cover"
           />
           <div className="absolute left-[404px] top-[95px] hidden w-[206px] xl:block">
             <FloatingStatCard

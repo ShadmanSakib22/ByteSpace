@@ -107,7 +107,7 @@ function CheckItem({ label }: { label: string }) {
 
 export function CreatorSection() {
   return (
-    <section className="relative overflow-hidden bg-[#fafafa] py-[80px] xl:py-[120px]">
+    <section className="relative overflow-hidden bg-[#fafafa] pt-[80px] xl:pt-[120px]">
       {/* soft background blobs anchored to the 1440 canvas */}
       <div
         aria-hidden
