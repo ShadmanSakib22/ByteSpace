@@ -15,8 +15,11 @@ export function NewsletterForm() {
 
   return (
     <div>
-      <form onSubmit={onSubmit} className="flex max-w-[510px] gap-4">
-        <label className="flex h-[52px] flex-1 items-center rounded-full border border-shuttle-200 bg-white px-6">
+      <form
+        onSubmit={onSubmit}
+        className="flex max-w-[510px] flex-col gap-3 sm:flex-row sm:gap-4"
+      >
+        <label className="flex min-w-0 flex-1 items-center rounded-full border border-shuttle-200 bg-white px-5 sm:px-6">
           <span className="sr-only">Email address</span>
           <input
             type="email"
@@ -27,14 +30,14 @@ export function NewsletterForm() {
               setDone(false);
             }}
             placeholder="Enter your email"
-            className="w-full bg-transparent text-base text-shuttle-950 outline-none placeholder:text-shuttle-950"
+            className="h-[44px] md:h-[52px] min-w-0 flex-1 bg-transparent text-base text-shuttle-950 outline-none placeholder:text-shuttle-950"
           />
         </label>
         <button
           type="submit"
-          className="h-[52px] shrink-0 cursor-pointer rounded-full bg-accent px-6 label-l text-shuttle-950 transition hover:brightness-95 active:scale-[0.98]"
+          className="h-[44px] md:h-[52px] shrink-0 cursor-pointer rounded-full bg-accent px-6 label-l text-shuttle-950 transition hover:brightness-95 active:scale-[0.98]"
         >
-          Search
+          Subscribe
         </button>
       </form>
       <p className="mt-4 max-w-[510px] body-s text-shuttle-950">

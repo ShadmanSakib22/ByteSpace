@@ -23,7 +23,7 @@ export function CoursesSection() {
   const isDefault = category === "Featured";
 
   return (
-    <section id="courses" className="scroll-mt-8 py-[72px]">
+    <section id="courses" className="scroll-mt-8 py-[var(--space-section)]">
       <Container>
         <SectionHeading
           title="Discover Your Passion, Build Your Skills"
@@ -31,18 +31,18 @@ export function CoursesSection() {
           titleClassName="text-ink-900"
         />
 
-        <div className="mt-[42px] flex flex-col items-center gap-4">
+        <div className="mt-7 flex flex-col items-center gap-3 sm:mt-[42px] sm:gap-4">
           {CATEGORY_ROWS.map((row, rowIdx) => (
             <div
               key={rowIdx}
-              className="flex flex-wrap justify-center gap-4"
+              className="flex w-full flex-wrap justify-center gap-2 sm:gap-4"
             >
               {row.map((label) =>
                 label === "+ More" ? (
                   <Link
                     key={label}
                     href="/courses"
-                    className="inline-flex h-11 items-center justify-center label-m whitespace-nowrap text-primary transition hover:underline"
+                    className="inline-flex min-h-11 items-center justify-center px-3 label-m whitespace-nowrap text-primary transition hover:underline"
                   >
                     {label}
                   </Link>
@@ -60,14 +60,14 @@ export function CoursesSection() {
           ))}
         </div>
 
-        <div className="mt-[76px] grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3 xl:gap-10">
+        <div className="mt-12 grid grid-cols-1 gap-5 sm:gap-8 md:grid-cols-2 xl:grid-cols-3 xl:gap-10">
           {courses.map((course) => (
             <CourseCard key={course.id} course={course} />
           ))}
         </div>
 
         {courses.length === 0 ? (
-          <div className="mt-[76px] rounded-card border border-shuttle-200 bg-white p-12 text-center">
+          <div className="mt-12 rounded-card border border-shuttle-200 bg-white p-8 text-center sm:mt-[76px] sm:p-12">
             <p className="heading-xs text-ink-900">No courses found</p>
             <p className="mt-2 body-m text-shuttle-400">
               “{category}” has no courses yet.

@@ -11,9 +11,17 @@ export function LogoStrip() {
   const items = Array.from({ length: REPEATS }, () => LOGOS).flat();
 
   return (
-    <section className="bg-shuttle-50 py-20">
+    <section className="bg-shuttle-50 py-12 sm:py-16 lg:py-20">
+      {/* Edge fade so logos dissolve at both boundaries instead of being sliced.
+          Uses a mask, so it never intercepts touches. */}
       <div
         className="w-full overflow-hidden"
+        style={{
+          maskImage:
+            "linear-gradient(to right, transparent, black 12%, black 88%, transparent)",
+          WebkitMaskImage:
+            "linear-gradient(to right, transparent, black 12%, black 88%, transparent)",
+        }}
         role="region"
         aria-label="Partner logos"
       >
@@ -34,6 +42,9 @@ export function LogoStrip() {
   );
 }
 
+const ROW_SPACING =
+  "gap-x-[40px] pr-[40px] sm:gap-x-[56px] sm:pr-[56px] lg:gap-x-[72px] lg:pr-[72px]";
+
 function LogoRow({
   items,
   hidden = false,
@@ -43,7 +54,7 @@ function LogoRow({
 }) {
   return (
     <ul
-      className="flex shrink-0 items-center gap-x-[72px] pr-[72px]"
+      className={`flex shrink-0 items-center ${ROW_SPACING}`}
       aria-hidden={hidden || undefined}
     >
       {items.map((n, i) => (

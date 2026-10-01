@@ -151,7 +151,7 @@ export function Navbar() {
 
         <button
           type="button"
-          className={`${textColor} lg:hidden`}
+          className={`-mr-2 flex h-11 w-11 items-center justify-center ${textColor} lg:hidden`}
           aria-label={open ? "Close menu" : "Open menu"}
           aria-expanded={open}
           aria-controls="mobile-menu"
@@ -165,14 +165,14 @@ export function Navbar() {
         <div
           ref={menuRef}
           id="mobile-menu"
-          className={`fixed top-20 left-0 right-0 border-t ${mobileBorder} ${mobileBg} px-4 pb-6 shadow-float lg:hidden`}
+          className={`fixed top-20 left-0 right-0 max-h-[calc(100dvh-5rem)] overflow-y-auto border-t ${mobileBorder} ${mobileBg} px-[var(--gutter)] pb-6 shadow-float lg:hidden`}
         >
-          <nav className="flex flex-col gap-4 pt-4" aria-label="Mobile">
+          <nav className="flex flex-col pt-2" aria-label="Mobile">
             {[...NAV_LINKS, ...ACTION_LINKS].map((link) => (
               <Link
                 key={link.label}
                 href={link.href}
-                className={`label-l ${isActive(pathname, link.href) ? "text-accent" : textColor}`}
+                className={`flex min-h-12 items-center label-l ${isActive(pathname, link.href) ? "text-accent" : textColor}`}
                 onClick={() => setOpen(false)}
               >
                 {link.label}
@@ -180,7 +180,7 @@ export function Navbar() {
             ))}
             <Link
               href="/cart"
-              className={`label-l ${isActive(pathname, "/cart") ? "text-accent" : textColor}`}
+              className={`flex min-h-12 items-center label-l ${isActive(pathname, "/cart") ? "text-accent" : textColor}`}
               onClick={() => setOpen(false)}
             >
               Cart

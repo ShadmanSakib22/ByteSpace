@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Poppins } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
@@ -42,6 +42,14 @@ export const metadata: Metadata = {
   title: "ByteSpace",
   description:
     "Get Access to Hundreds of Courses Available - Unlock your creativity, gain valuable knowledge, and grow your business with our wide range of courses.",
+};
+
+// viewport-fit=cover lets the body reach under notches/rounded corners so the
+// safe-area padding in globals.css has something to inset against.
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

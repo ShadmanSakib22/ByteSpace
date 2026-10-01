@@ -3,11 +3,12 @@ import { TESTIMONIALS } from "@/data/testimonials";
 
 export function TestimonialsSection() {
   return (
-    <section className="relative overflow-hidden bg-[#fafafa] pb-[58px] pt-[74px]">
-      {/* gradient blobs anchored to the 1440 canvas */}
+    <section className="relative overflow-hidden bg-[#fafafa] pb-12 pt-[var(--space-section)] sm:pb-[58px] sm:pt-[74px]">
+      {/* gradient blobs anchored to the 1440 canvas — desktop only, where they
+          sit behind the content instead of tinting the whole column on mobile */}
       <div
         aria-hidden
-        className="pointer-events-none absolute left-1/2 top-0 h-full w-[1440px] -translate-x-1/2"
+        className="pointer-events-none absolute left-1/2 top-0 hidden h-full w-[1440px] -translate-x-1/2 lg:block"
       >
         <div
           className="absolute left-[842px] top-[-241px] h-[1137px] w-[1137px] rounded-full"
@@ -49,11 +50,11 @@ export function TestimonialsSection() {
           </p>
         </div>
 
-        <div className="mt-[72px] grid items-start gap-8 md:grid-cols-3 md:gap-[41px]">
+        <div className="mt-12 grid items-start gap-6 md:grid-cols-3 md:gap-8 xl:gap-[41px]">
           {TESTIMONIALS.map((t) => (
             <figure
               key={t.id}
-              className="flex flex-col rounded-card bg-white p-6"
+              className="flex flex-col rounded-card bg-white p-5 sm:p-6"
             >
               <img
                 src={t.avatar}

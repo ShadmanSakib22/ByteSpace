@@ -96,7 +96,7 @@ function RevenueCardYear({ className }: { className: string }) {
 
 function CheckItem({ label }: { label: string }) {
   return (
-    <li className="flex w-[227px] items-center justify-between">
+    <li className="flex w-full max-w-[227px] items-center justify-between gap-4">
       <span className="body-l text-shuttle-950">{label}</span>
       <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-md bg-white">
         <CheckIcon size={14} strokeWidth={2.5} className="text-primary" />
@@ -107,7 +107,7 @@ function CheckItem({ label }: { label: string }) {
 
 export function CreatorSection() {
   return (
-    <section className="relative overflow-hidden bg-[#fafafa] pt-[80px] xl:pt-[120px]">
+    <section className="relative overflow-hidden bg-[#fafafa] pt-[var(--space-section)] xl:pt-[120px]">
       {/* soft background blobs anchored to the 1440 canvas */}
       <div
         aria-hidden
@@ -129,19 +129,19 @@ export function CreatorSection() {
 
       <Container className="relative z-10">
         {/* Row 1: growth (text left, collage right) */}
-        <div className="flex flex-col gap-12 xl:flex-row xl:items-start xl:gap-[63px]">
+        <div className="flex flex-col gap-8 sm:gap-12 xl:flex-row xl:items-start xl:gap-[63px]">
           <div className="w-full xl:w-[574px] xl:shrink-0">
             <h2 className="heading-m text-shuttle-950">
               Your Path to Professional Growth Starts Here!
             </h2>
-            <p className="mt-10 max-w-[477px] body-l text-shuttle-700">
+            <p className="mt-5 max-w-[477px] body-l text-shuttle-700 sm:mt-10">
               Explore our curated selection of courses tailored to enhance your
               capabilities and accelerate your career journey. Whether you are
               looking to sharpen specific skills, gain industry expertise, or
               embark on a new career path entirely, we have the resources you
               need.
             </p>
-            <dl className="mt-10 flex w-[322px] max-w-full justify-between">
+            <dl className="mt-6 flex max-w-[322px] flex-wrap justify-between gap-y-4 sm:mt-10">
               {STATS.map((s) => (
                 <div key={s.label}>
                   <dt className="font-display text-[36px] font-medium leading-tight text-primary">
@@ -181,7 +181,7 @@ export function CreatorSection() {
         </div>
 
         {/* Row 2: create & manage (collage left, text right) */}
-        <div className="mt-[72px] flex flex-col gap-12 xl:flex-row xl:items-center xl:gap-[79px]">
+        <div className="mt-12 flex flex-col-reverse gap-8 sm:mt-[72px] sm:gap-12 xl:flex-row xl:items-center xl:gap-[79px]">
           {/* collage 2 */}
           <div className="relative mx-auto h-[328px] w-[298px] shrink-0 sm:h-[447px] sm:w-[406px] xl:mx-0 xl:h-[596px] xl:w-[541px]">
             <div className="absolute left-0 top-0 h-[596px] w-[541px] origin-top-left scale-[0.55] sm:scale-[0.75] xl:scale-100">
@@ -212,11 +212,11 @@ export function CreatorSection() {
             <h2 className="heading-m max-w-[391px] text-shuttle-950">
               Create &amp; Manage Courses Easily.
             </h2>
-            <p className="mt-10 max-w-[574px] body-l text-shuttle-700">
+            <p className="mt-5 max-w-[574px] body-l text-shuttle-700 sm:mt-10">
               ByteSpace supports individuals or entities in the creation,
               publication, and administration of educational courses.
             </p>
-            <ul className="mt-10 flex flex-col gap-4">
+            <ul className="mt-5 flex flex-col gap-4 sm:mt-10">
               {FEATURES.map((f) => (
                 <CheckItem key={f} label={f} />
               ))}
