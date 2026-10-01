@@ -1,0 +1,168 @@
+﻿<svg width="2776" xmlns="http://www.w3.org/2000/svg" height="2711" viewBox="-9538 4242 2776 2711" style="-webkit-print-color-adjust::exact" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" version="1.1">
+  <g id="shape-1e6ccdd2-2327-5913-b62e-87d1f1b738b8" style="opacity:1" rx="0" ry="0">
+    <g id="shape-b3390bc7-7d82-5ad7-be59-1aeb9d50ccbd" style="opacity:1">
+      <defs>
+        <filter id="filter-render-6998" x="-0.07036059806508356" y="-0.07036059806508356" width="1.140721196130167" height="1.140721196130167" filterUnits="objectBoundingBox" color-interpolation-filters="sRGB">
+          <feFlood flood-opacity="0">
+          </feFlood>
+          <feBlend mode="normal" in="SourceGraphic">
+          </feBlend>
+          <feGaussianBlur stdDeviation="40">
+          </feGaussianBlur>
+        </filter>
+        <filter id="filter-blur-render-6998" x="-0.07036059806508356" y="-0.07036059806508356" width="1.140721196130167" height="1.140721196130167" filterUnits="objectBoundingBox" color-interpolation-filters="sRGB">
+          <feFlood flood-opacity="0">
+          </feFlood>
+          <feBlend mode="normal" in="SourceGraphic">
+          </feBlend>
+          <feGaussianBlur stdDeviation="40">
+          </feGaussianBlur>
+        </filter>
+        <radialGradient id="fill-color-gradient-render-6998-0" cx="0.49999999999999994" cy="0.49999999999999994" r="0.49999999999999994" gradientTransform="matrix(-1.000000, 0.000000, -0.000000, -1.000000, 1.000000, 1.000000)">
+          <stop offset="0" stop-color="#003be2" stop-opacity="0.23999999463558197">
+          </stop>
+          <stop offset="0.5299999713897705" stop-color="#003be2" stop-opacity="0.05519999976754186">
+          </stop>
+          <stop offset="0.75" stop-color="#003be2" stop-opacity="0.014399999356269844">
+          </stop>
+          <stop offset="1" stop-color="#003be2" stop-opacity="0">
+          </stop>
+        </radialGradient>
+        <pattern patternUnits="userSpaceOnUse" x="-8148" y="5656" width="1137" height="1137" id="fill-0-render-6998">
+          <g>
+            <rect width="1137" height="1137" style="fill:url(#fill-color-gradient-render-6998-0);fill-opacity:0.23999999463558197">
+            </rect>
+          </g>
+        </pattern>
+      </defs>
+      <g class="fills" id="fills-b3390bc7-7d82-5ad7-be59-1aeb9d50ccbd">
+        <ellipse cx="-7579.5" cy="6224.5" rx="568.5" ry="568.5" transform="matrix(1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000)" filter="url(#filter-render-6998)" fill="url(#fill-0-render-6998)">
+        </ellipse>
+      </g>
+    </g>
+    <g id="shape-558f06a3-0382-56d9-941f-49133e48c54a" style="opacity:1">
+      <defs>
+        <filter id="filter-render-6999" x="-0.07036059806508356" y="-0.07036059806508356" width="1.140721196130167" height="1.140721196130167" filterUnits="objectBoundingBox" color-interpolation-filters="sRGB">
+          <feFlood flood-opacity="0">
+          </feFlood>
+          <feBlend mode="normal" in="SourceGraphic">
+          </feBlend>
+          <feGaussianBlur stdDeviation="40">
+          </feGaussianBlur>
+        </filter>
+        <filter id="filter-blur-render-6999" x="-0.07036059806508356" y="-0.07036059806508356" width="1.140721196130167" height="1.140721196130167" filterUnits="objectBoundingBox" color-interpolation-filters="sRGB">
+          <feFlood flood-opacity="0">
+          </feFlood>
+          <feBlend mode="normal" in="SourceGraphic">
+          </feBlend>
+          <feGaussianBlur stdDeviation="40">
+          </feGaussianBlur>
+        </filter>
+        <radialGradient id="fill-color-gradient-render-6999-0" cx="0.49999999999999994" cy="0.49999999999999994" r="0.49999999999999994" gradientTransform="matrix(-1.000000, 0.000000, -0.000000, -1.000000, 1.000000, 1.000000)">
+          <stop offset="0" stop-color="#cbfc01" stop-opacity="0.4000000059604645">
+          </stop>
+          <stop offset="0.5299999713897705" stop-color="#cbfc01" stop-opacity="0.09200000303983691">
+          </stop>
+          <stop offset="0.75" stop-color="#cbfc01" stop-opacity="0.023999999821186058">
+          </stop>
+          <stop offset="1" stop-color="#cbfc01" stop-opacity="0">
+          </stop>
+        </radialGradient>
+        <pattern patternUnits="userSpaceOnUse" x="-9022" y="4402" width="1137" height="1137" id="fill-0-render-6999">
+          <g>
+            <rect width="1137" height="1137" style="fill:url(#fill-color-gradient-render-6999-0);fill-opacity:0.4000000059604645">
+            </rect>
+          </g>
+        </pattern>
+      </defs>
+      <g class="fills" id="fills-558f06a3-0382-56d9-941f-49133e48c54a">
+        <ellipse cx="-8453.5" cy="4970.5" rx="568.5" ry="568.5" transform="matrix(1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000)" filter="url(#filter-render-6999)" fill="url(#fill-0-render-6999)">
+        </ellipse>
+      </g>
+    </g>
+    <g id="shape-be48b59e-2b34-5e00-947c-3f61b68dec87" style="opacity:1">
+      <defs>
+        <filter id="filter-render-7000" x="-0.07036059806508356" y="-0.07036059806508356" width="1.140721196130167" height="1.140721196130167" filterUnits="objectBoundingBox" color-interpolation-filters="sRGB">
+          <feFlood flood-opacity="0">
+          </feFlood>
+          <feBlend mode="normal" in="SourceGraphic">
+          </feBlend>
+          <feGaussianBlur stdDeviation="40">
+          </feGaussianBlur>
+        </filter>
+        <filter id="filter-blur-render-7000" x="-0.07036059806508356" y="-0.07036059806508356" width="1.140721196130167" height="1.140721196130167" filterUnits="objectBoundingBox" color-interpolation-filters="sRGB">
+          <feFlood flood-opacity="0">
+          </feFlood>
+          <feBlend mode="normal" in="SourceGraphic">
+          </feBlend>
+          <feGaussianBlur stdDeviation="40">
+          </feGaussianBlur>
+        </filter>
+        <radialGradient id="fill-color-gradient-render-7000-0" cx="0.49999999999999994" cy="0.49999999999999994" r="0.49999999999999994" gradientTransform="matrix(-1.000000, 0.000000, -0.000000, -1.000000, 1.000000, 1.000000)">
+          <stop offset="0" stop-color="#003be2" stop-opacity="0.1599999964237213">
+          </stop>
+          <stop offset="0.5299999713897705" stop-color="#003be2" stop-opacity="0.03679999984502791">
+          </stop>
+          <stop offset="0.75" stop-color="#003be2" stop-opacity="0.009599999570846562">
+          </stop>
+          <stop offset="1" stop-color="#003be2" stop-opacity="0">
+          </stop>
+        </radialGradient>
+        <pattern patternUnits="userSpaceOnUse" x="-9378" y="5051" width="1137" height="1137" id="fill-0-render-7000">
+          <g>
+            <rect width="1137" height="1137" style="fill:url(#fill-color-gradient-render-7000-0);fill-opacity:0.1599999964237213">
+            </rect>
+          </g>
+        </pattern>
+      </defs>
+      <g class="fills" id="fills-be48b59e-2b34-5e00-947c-3f61b68dec87">
+        <ellipse cx="-8809.5" cy="5619.5" rx="568.5" ry="568.5" transform="matrix(1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000)" filter="url(#filter-render-7000)" fill="url(#fill-0-render-7000)">
+        </ellipse>
+      </g>
+    </g>
+    <g id="shape-d4336c69-4516-5cfe-bdf8-3d4440b2a758" style="opacity:1">
+      <defs>
+        <filter id="filter-render-7001" x="-0.07036059806508356" y="-0.07036059806508356" width="1.140721196130167" height="1.140721196130167" filterUnits="objectBoundingBox" color-interpolation-filters="sRGB">
+          <feFlood flood-opacity="0">
+          </feFlood>
+          <feBlend mode="normal" in="SourceGraphic">
+          </feBlend>
+          <feGaussianBlur stdDeviation="40">
+          </feGaussianBlur>
+        </filter>
+        <filter id="filter-blur-render-7001" x="-0.07036059806508356" y="-0.07036059806508356" width="1.140721196130167" height="1.140721196130167" filterUnits="objectBoundingBox" color-interpolation-filters="sRGB">
+          <feFlood flood-opacity="0">
+          </feFlood>
+          <feBlend mode="normal" in="SourceGraphic">
+          </feBlend>
+          <feGaussianBlur stdDeviation="40">
+          </feGaussianBlur>
+        </filter>
+        <radialGradient id="fill-color-gradient-render-7001-0" cx="0.49999999999999994" cy="0.49999999999999994" r="0.49999999999999994" gradientTransform="matrix(-1.000000, 0.000000, -0.000000, -1.000000, 1.000000, 1.000000)">
+          <stop offset="0" stop-color="#003be2" stop-opacity="0.07999999821186066">
+          </stop>
+          <stop offset="0.5299999713897705" stop-color="#003be2" stop-opacity="0.018399999922513954">
+          </stop>
+          <stop offset="0.75" stop-color="#003be2" stop-opacity="0.004799999785423281">
+          </stop>
+          <stop offset="1" stop-color="#003be2" stop-opacity="0">
+          </stop>
+        </radialGradient>
+        <pattern patternUnits="userSpaceOnUse" x="-8059" y="4410" width="1137" height="1137" id="fill-0-render-7001">
+          <g>
+            <rect width="1137" height="1137" style="fill:url(#fill-color-gradient-render-7001-0);fill-opacity:0.07999999821186066">
+            </rect>
+          </g>
+        </pattern>
+      </defs>
+      <g class="fills" id="fills-d4336c69-4516-5cfe-bdf8-3d4440b2a758">
+        <ellipse cx="-7490.5" cy="4978.5" rx="568.5" ry="568.5" transform="matrix(1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000)" filter="url(#filter-render-7001)" fill="url(#fill-0-render-7001)">
+        </ellipse>
+      </g>
+    </g>
+  </g>
+  
+  
+  
+  
+</svg>
