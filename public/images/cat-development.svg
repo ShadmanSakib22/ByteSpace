@@ -1,0 +1,48 @@
+﻿<svg width="60" xmlns="http://www.w3.org/2000/svg" height="60" viewBox="-8492 4617 60 60" style="-webkit-print-color-adjust::exact" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" version="1.1">
+  <g id="shape-08c53c04-90e0-52dd-97a4-51f1608a20cb">
+    <g class="frame-container-wrapper" opacity="1">
+      <g class="frame-container-blur">
+        <g class="frame-container-shadows">
+          <g fill="none">
+            <g class="fills" id="fills-08c53c04-90e0-52dd-97a4-51f1608a20cb">
+              <rect rx="30" ry="30" x="-8492" y="4617" width="60" height="60" transform="matrix(1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000)" class="frame-background" style="fill:#d4fb20;fill-opacity:1">
+              </rect>
+            </g>
+            <g class="frame-children">
+              <g id="shape-b295a757-92a0-5526-8bd7-4183a213559a">
+                <defs>
+                  <clipPath id="frame-clip-b295a757-92a0-5526-8bd7-4183a213559a-render-6646" class="frame-clip frame-clip-def">
+                    <rect rx="0" ry="0" x="-8480" y="4629" width="36" height="36" transform="matrix(1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000)">
+                    </rect>
+                  </clipPath>
+                </defs>
+                <g class="frame-container-wrapper" opacity="1">
+                  <g class="frame-container-blur">
+                    <g class="frame-container-shadows">
+                      <g clip-path="url(#frame-clip-b295a757-92a0-5526-8bd7-4183a213559a-render-6646)" fill="none">
+                        <g class="fills" id="fills-b295a757-92a0-5526-8bd7-4183a213559a">
+                          <rect rx="0" ry="0" x="-8480" y="4629" width="36" height="36" transform="matrix(1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000)" class="frame-background" style="fill:#ffffff;fill-opacity:0">
+                          </rect>
+                        </g>
+                        <g class="frame-children">
+                          <g id="shape-0a77fd91-cb6b-58ed-b2b7-840101d8b717" style="opacity:1">
+                            <g class="fills" id="fills-0a77fd91-cb6b-58ed-b2b7-840101d8b717">
+                              <path d="M-8469.5,4636.5L-8454.5,4636.5L-8454.5,4639.5L-8451.5,4639.5L-8451.5,4633.5C-8451.5,4631.85009765625,-8452.849609375,4630.51513671875,-8454.5,4630.51513671875L-8469.5,4630.5C-8471.150390625,4630.5,-8472.5,4631.85009765625,-8472.5,4633.5L-8472.5,4639.5L-8469.5,4639.5L-8469.5,4636.5ZM-8456.884765625,4653.884765625L-8450,4647L-8456.884765625,4640.115234375L-8459,4642.2451171875L-8454.2451171875,4647L-8459,4651.7548828125L-8456.884765625,4653.884765625ZM-8465,4651.7548828125L-8469.7548828125,4647L-8465,4642.2451171875L-8467.115234375,4640.115234375L-8474,4647L-8467.115234375,4653.884765625L-8465,4651.7548828125ZM-8454.5,4657.5L-8469.5,4657.5L-8469.5,4654.5L-8472.5,4654.5L-8472.5,4660.5C-8472.5,4662.14990234375,-8471.150390625,4663.5,-8469.5,4663.5L-8454.5,4663.5C-8452.849609375,4663.5,-8451.5,4662.14990234375,-8451.5,4660.5L-8451.5,4654.5L-8454.5,4654.5L-8454.5,4657.5Z" fill-rule="nonzero" style="fill:#242528;fill-opacity:1">
+                              </path>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  
+  
+</svg>

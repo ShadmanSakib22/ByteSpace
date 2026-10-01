@@ -1,0 +1,48 @@
+﻿<svg width="60" xmlns="http://www.w3.org/2000/svg" height="60" viewBox="-8074 4616 60 60" style="-webkit-print-color-adjust::exact" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" version="1.1">
+  <g id="shape-9a920dc5-53fe-594a-a20e-b1a5f8c07fe8">
+    <g class="frame-container-wrapper" opacity="1">
+      <g class="frame-container-blur">
+        <g class="frame-container-shadows">
+          <g fill="none">
+            <g class="fills" id="fills-9a920dc5-53fe-594a-a20e-b1a5f8c07fe8">
+              <rect rx="30" ry="30" x="-8074" y="4616" width="60" height="60" transform="matrix(1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000)" class="frame-background" style="fill:#d4fb20;fill-opacity:1">
+              </rect>
+            </g>
+            <g class="frame-children">
+              <g id="shape-0dcb3afb-8858-5206-a8ad-8d659610bea8">
+                <defs>
+                  <clipPath id="frame-clip-0dcb3afb-8858-5206-a8ad-8d659610bea8-render-6658" class="frame-clip frame-clip-def">
+                    <rect rx="0" ry="0" x="-8062" y="4628" width="36" height="36" transform="matrix(1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000)">
+                    </rect>
+                  </clipPath>
+                </defs>
+                <g class="frame-container-wrapper" opacity="1">
+                  <g class="frame-container-blur">
+                    <g class="frame-container-shadows">
+                      <g clip-path="url(#frame-clip-0dcb3afb-8858-5206-a8ad-8d659610bea8-render-6658)" fill="none">
+                        <g class="fills" id="fills-0dcb3afb-8858-5206-a8ad-8d659610bea8">
+                          <rect rx="0" ry="0" x="-8062" y="4628" width="36" height="36" transform="matrix(1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000)" class="frame-background" style="fill:#ffffff;fill-opacity:0">
+                          </rect>
+                        </g>
+                        <g class="frame-children">
+                          <g id="shape-b23b4e31-a95c-5676-bdce-921bf5d84607" style="opacity:1">
+                            <g class="fills" id="fills-b23b4e31-a95c-5676-bdce-921bf5d84607">
+                              <path d="M-8044,4638.5L-8044,4635.5C-8044,4633.85009765625,-8045.35009765625,4632.5,-8047,4632.5L-8056,4632.5C-8057.64990234375,4632.5,-8059,4633.85009765625,-8059,4635.5L-8059,4656.5C-8059,4658.14990234375,-8057.64990234375,4659.5,-8056,4659.5L-8032,4659.5C-8030.35009765625,4659.5,-8029,4658.14990234375,-8029,4656.5L-8029,4641.5C-8029,4639.85009765625,-8030.35009765625,4638.5,-8032,4638.5L-8044,4638.5ZM-8053,4656.5L-8056,4656.5L-8056,4653.5L-8053,4653.5L-8053,4656.5ZM-8053,4650.5L-8056,4650.5L-8056,4647.5L-8053,4647.5L-8053,4650.5ZM-8053,4644.5L-8056,4644.5L-8056,4641.5L-8053,4641.5L-8053,4644.5ZM-8053,4638.5L-8056,4638.5L-8056,4635.5L-8053,4635.5L-8053,4638.5ZM-8047,4656.5L-8050,4656.5L-8050,4653.5L-8047,4653.5L-8047,4656.5ZM-8047,4650.5L-8050,4650.5L-8050,4647.5L-8047,4647.5L-8047,4650.5ZM-8047,4644.5L-8050,4644.5L-8050,4641.5L-8047,4641.5L-8047,4644.5ZM-8047,4638.5L-8050,4638.5L-8050,4635.5L-8047,4635.5L-8047,4638.5ZM-8033.5,4656.5L-8044,4656.5L-8044,4653.5L-8041,4653.5L-8041,4650.5L-8044,4650.5L-8044,4647.5L-8041,4647.5L-8041,4644.5L-8044,4644.5L-8044,4641.5L-8033.5,4641.5C-8032.6748046875,4641.5,-8032,4642.1748046875,-8032,4643L-8032,4655C-8032,4655.8251953125,-8032.6748046875,4656.5,-8033.5,4656.5ZM-8035,4644.5L-8038,4644.5L-8038,4647.5L-8035,4647.5L-8035,4644.5ZM-8035,4650.5L-8038,4650.5L-8038,4653.5L-8035,4653.5L-8035,4650.5Z" fill-rule="nonzero" style="fill:#242528;fill-opacity:1">
+                              </path>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  
+  
+</svg>
