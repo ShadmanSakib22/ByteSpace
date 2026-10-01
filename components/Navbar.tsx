@@ -97,9 +97,9 @@ export function Navbar() {
     setOpen(false);
   }, [pathname]);
 
-  // The home hero is dark, so the navbar starts transparent there; every other
-  // route gets the solid treatment from the first pixel.
-  const isOverlay = pathname === "/" && !isScrolled;
+  // Every page opens with a dark hero, so the navbar is transparent (light text)
+  // at the top of any route and turns solid once the user scrolls.
+  const isOverlay = !isScrolled;
   const isLight = isOverlay;
 
   const headerBg = isOverlay
