@@ -55,7 +55,6 @@ export function TestimonialsSection() {
               key={t.id}
               className="flex flex-col rounded-card bg-white p-6"
             >
-              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={t.avatar}
                 alt={t.name}
