@@ -104,7 +104,7 @@ export function Navbar() {
 
   const headerBg = isOverlay
     ? "bg-transparent"
-    : "bg-white/70 backdrop-blur-md border-b border-shuttle-100";
+    : "bg-white/70 backdrop-blur-md";
   const textColor = isLight ? "text-shuttle-50" : "text-shuttle-950";
   const hoverColor = isLight ? "hover:text-accent" : "hover:text-primary";
   const mobileBg = isOverlay ? "bg-primary" : "bg-white";
